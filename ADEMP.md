@@ -6,11 +6,9 @@
 ---
 
 ## Aims
-The goal of this project is to reproduce the main idea from the paper  
-**Benjamini & Hochberg (1995)** — the False Discovery Rate (FDR) method.  
+The goal of this project is to reproduce the main idea from the paper **Benjamini & Hochberg (1995)**; the False Discovery Rate (FDR) method.  
 
-I want to see how well the **BH procedure** keeps the false discovery rate close to the chosen level (α),  
-and how it compares to simpler approaches like Bonferroni correction and no correction at all.
+I want to see how well the **BH procedure** keeps the false discovery rate close to the chosen level (α), and how it compares to simpler approaches like Bonferroni correction and no correction at all.
 
 Main questions:
 - Does the BH method actually control FDR at or below α?  
@@ -91,3 +89,4 @@ I expect:
 - Uncorrected tests will go way above α.  
 
 In the future, I will check what happens if tests are not independent (e.g., correlated p-values).
+
