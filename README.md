@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## How to Run the Complete Analysis
 
-**Option 1: Using Makefile (recommended)**
+**Option 1: Using Makefile**
 ```bash
 make all
 ```
